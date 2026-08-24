@@ -1,0 +1,27 @@
+# Datasets — keep instructions only
+data/*
+!data/README.md
+datasets/
+
+# MATLAB backup and generated files
+*.asv
+*.m~
+*.mex*
+*.slxc
+*.autosave
+slprj/
+sccprj/
+codegen/
+
+# Temporary files and model checkpoints
+checkpoints/
+temp/
+tmp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+.idea/
