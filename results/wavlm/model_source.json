@@ -1,0 +1,5 @@
+{
+  "model": "microsoft/wavlm-base-plus",
+  "revision": "4c66d4806a428f2e922ccfa1a962776e232d487b",
+  "source": "https://huggingface.co/microsoft/wavlm-base-plus/tree/4c66d4806a428f2e922ccfa1a962776e232d487b"
+}

@@ -1,0 +1,12 @@
+{
+  "Recordings": 672,
+  "Dimensions": 33,
+  "FiniteValues": true,
+  "MinimumVoicedFraction": 0.0679886685552408,
+  "MaximumVoicedFraction": 0.4178272980501393,
+  "RecordingsWithoutF0": 0,
+  "ClippingSamples": 23,
+  "RejectedNonPeakFrames": 848,
+  "RejectedJumpFrames": 506,
+  "RejectedShortRunFrames": 1872
+}

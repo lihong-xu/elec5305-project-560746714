@@ -1,0 +1,490 @@
+{
+  "Recordings": 672,
+  "Actors": 24,
+  "Counts": [
+    {
+      "ActorID": 1,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 1,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 1,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 1,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 2,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 2,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 2,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 2,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 3,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 3,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 3,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 3,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 4,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 4,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 4,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 4,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 5,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 5,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 5,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 5,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 6,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 6,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 6,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 6,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 7,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 7,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 7,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 7,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 8,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 8,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 8,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 8,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 9,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 9,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 9,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 9,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 10,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 10,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 10,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 10,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 11,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 11,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 11,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 11,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 12,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 12,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 12,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 12,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 13,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 13,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 13,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 13,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 14,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 14,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 14,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 14,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 15,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 15,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 15,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 15,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 16,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 16,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 16,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 16,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 17,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 17,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 17,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 17,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 18,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 18,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 18,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 18,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 19,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 19,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 19,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 19,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 20,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 20,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 20,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 20,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 21,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 21,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 21,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 21,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 22,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 22,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 22,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 22,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 23,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 23,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 23,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 23,
+      "Emotion": "sad",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 24,
+      "Emotion": "angry",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 24,
+      "Emotion": "happy",
+      "GroupCount": 8
+    },
+    {
+      "ActorID": 24,
+      "Emotion": "neutral",
+      "GroupCount": 4
+    },
+    {
+      "ActorID": 24,
+      "Emotion": "sad",
+      "GroupCount": 8
+    }
+  ],
+  "UnreadableRecordings": 0,
+  "EmotionActorLeakage": false,
+  "SpeakerRecordingLeakage": false,
+  "Source": "https://zenodo.org/records/1188976"
+}

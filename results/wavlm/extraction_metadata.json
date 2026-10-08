@@ -1,0 +1,43 @@
+{
+  "model": "microsoft/wavlm-base-plus",
+  "revision": "4c66d4806a428f2e922ccfa1a962776e232d487b",
+  "layers": [
+    1,
+    4,
+    8,
+    12
+  ],
+  "sample_rate_hz": 16000,
+  "pooling": "mean over all unpadded model time frames",
+  "dimension": 768,
+  "dtype": "float32",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 5305,
+  "software": {
+    "torch": "2.13.0+cpu",
+    "transformers": "4.57.1",
+    "huggingface-hub": "0.36.0",
+    "numpy": "2.4.2",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1"
+  },
+  "manifest_sha256": "c74b85b80db6f4d45c488469f29e050dd477116d87b00690524202a4c618115e",
+  "processor_config": {
+    "feature_size": 1,
+    "sampling_rate": 16000,
+    "padding_value": 0.0,
+    "padding_side": "right",
+    "return_attention_mask": true,
+    "_processor_class": null,
+    "feature_extractor_type": "Wav2Vec2FeatureExtractor",
+    "do_normalize": false
+  },
+  "frozen_parameters": true,
+  "training_mode": false,
+  "parameter_count": 94381936,
+  "elapsed_seconds_this_run": 274.5307168000145,
+  "completed_recordings": 672,
+  "total_recordings": 672,
+  "fingerprint": "ea371591ffad12c474730b513f783553807f8b14d8a468be7993f65e18135f83"
+}

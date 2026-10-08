@@ -1,0 +1,57 @@
+{
+  "SampleRateHz": 16000,
+  "WindowSamples": 400,
+  "HopSamples": 160,
+  "FFTLength": 512,
+  "Window": "Hamming symmetric",
+  "MFCCCount": 13,
+  "MelFilterCount": 40,
+  "FilterSpacing": "Slaney 13 linear + 27 logarithmic",
+  "PreEmphasis": false,
+  "F0Method": "ELEC5305 feature_harmonic autocorrelation",
+  "F0RangeHz": [
+    62.5,
+    500
+  ],
+  "F0WindowSamples": 800,
+  "F0HarmonicRatioMinimum": 0.6,
+  "F0Window": "Unwindowed, frame mean removed",
+  "F0EnergyGate": "pitch-frame RMS >= 0.1 * maximum pitch-frame RMS",
+  "F0EnergyFraction": 0.1,
+  "F0MinimumRunFrames": 3,
+  "F0MedianSmoothingFrames": 3,
+  "F0LocalDeviationOctaves": 0.5,
+  "F0LocalReference": "Median of up to four neighbors within 20 ms, excluding the current frame",
+  "F0PeakCheck": "Course normalized autocorrelation must have a local maximum at the selected lag",
+  "F0MedianEndpoints": "One reflected interior sample at each endpoint",
+  "EnergyMethod": "RMS of unwindowed frames; amplitude preserved",
+  "CentroidUnit": "Hz",
+  "Seed": 5305,
+  "EmotionFolds": 6,
+  "SpeakerTestFraction": 0.25,
+  "MATLABVersion": "25.2.0.3177638 (R2025b) Update 5",
+  "DatasetStrict": true,
+  "Stage": "acoustic",
+  "ToolboxFunctions": {
+    "getDFT": {
+      "Path": "Toolbox/AudioAnalysis/getDFT.m",
+      "SHA256": "68cce6f90465c92c978eb73d0f18804453069a7acc621a84e52265b245fbb834"
+    },
+    "feature_mfccs_init": {
+      "Path": "Toolbox/AudioAnalysis/feature_mfccs_init.m",
+      "SHA256": "6c4ad0dea44fb668e152801789e9fad6bf97fc32c7a423d209443a9a9fc3bb76"
+    },
+    "feature_mfccs": {
+      "Path": "Toolbox/AudioAnalysis/feature_mfccs.m",
+      "SHA256": "02a0cce2b23883c3c04c3ca318745e1f247fd9967d12244561f248b200a9102c"
+    },
+    "feature_harmonic": {
+      "Path": "Toolbox/AudioAnalysis/feature_harmonic.m",
+      "SHA256": "fd553d191f5f7e9ff810daee0efb50d90f4eb5b2fde8da6b00dbddfb7708e0d1"
+    },
+    "feature_energy": {
+      "Path": "Toolbox/AudioAnalysis/feature_energy.m",
+      "SHA256": "bc5565da96113f4521db0c7f87e13334889d3d2377dbbd0f8fd9dfe854a77b03"
+    }
+  }
+}
