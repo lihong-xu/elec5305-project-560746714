@@ -1,9 +1,3 @@
-# elec5305-project-560746714
-Project Description: This project aims to develop a speech emotion recognition system that
-classifies audio recordings into four emotions: happy, sad, angry, and neutral. The project will
-investigate acoustic features including MFCCs, pitch, short-time energy, and spectral features,
-which will be extracted using MATLAB and the ELEC5305 Toolbox and compare machine-
-learning classifiers such as SVM and Random Forest. If time permits, a CNN-based model
-will be implemented as an extension. The system will be evaluated using accuracy, macro-F1
-score, and confusion matrices, with speaking-independent data splitting used to provide a
-more reliable evaluation.
+# Layer-Wise Analysis of Emotion and Speaker Information in WavLM Speech Representations<img width="432" height="63" alt="image" src="https://github.com/user-attachments/assets/6ab7b684-2569-434b-b36e-c8f50c7915f4" />
+Project Description: This project will investigate which layers of a frozen WavLM Base+ speech model contain the most useful information for categorical emotional-expression recognition, and how strongly that information is associated with speaker identity. Using the speech-only portion of RAVDESS, the study will classify happy, sad, angry, and neutral acted expressions. A compact traditional baseline based on MFCC, pitch, and energy features will provide an interpretable comparison. Emotion recognition will use actor-independent evaluation, while a separate speaker-identification probe will measure how accessible actor identity is in each representation. WavLM will be used as a frozen feature extractor; it will not be trained or fine-tuned.<img width="432" height="122" alt="image" src="https://github.com/user-attachments/assets/12fb8f08-f500-44b8-b4c1-0bd67b5eb1b5" />
+
