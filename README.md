@@ -1,7 +1,7 @@
-## Layer-Wise Analysis of Emotion and Speaker Information in WavLM Speech Representations
+# Layer-Wise Analysis of Emotion and Speaker Information in WavLM Speech Representations
 Project Description: This project will investigate which layers of a frozen WavLM Base+ speech model contain the most useful information for categorical emotional-expression recognition, and how strongly that information is associated with speaker identity. Using the speech-only portion of RAVDESS, the study will classify happy, sad, angry, and neutral acted expressions. A compact traditional baseline based on MFCC, pitch, and energy features will provide an interpretable comparison. Emotion recognition will use actor-independent evaluation, while a separate speaker-identification probe will measure how accessible actor identity is in each representation. WavLM will be used as a frozen feature extractor; it will not be trained or fine-tuned.
-## Installation
-# a). Checking the runtime environment
+# Installation
+## a). Checking the runtime environment
 MATLAB and the Signal Processing Toolbox are required, as well as Python 3.12 and the relevant dependencies.
 If the environment for the current project is already set up, proceed directly to the following two steps for MATLAB and Python.
 Important: When installing Python dependencies on a new Windows machine, first install Python 3.12,
@@ -21,7 +21,7 @@ Installing packages usually requires an internet connection.
 If the .venv environment already exists and the dependencies are already installed, there is no need to recreate or reinstall them; simply proceed to the subsequent steps.
 If there is no `py` launcher, after ensuring that `python` points to Python 3.12,
 the first step can be changed to `python -m venv .venv`.
-# b). Run MATLAB first
+## b). Run MATLAB first
 1. Open MATLAB.
 2. Set the ‘Current Folder’ to the project root directory, i.e. the directory containing the two .m files.
 3. Open run_ravdess_week8.m in the editor.
@@ -38,7 +38,7 @@ After clicking ‘Run’, the main programme first checks the `data/raw/` direct
 Therefore, the main MATLAB programme can be run first; it will create the `data` directory and retrieve the data as required,
 without requiring the recipient to manually download the original recordings in advance. Access to Zenodo is required for automatic downloads; an error will be reported if this fails.
 There is no need to run `clean_f0_track.m` or any functions from the toolbox separately.
-# c). Run Python again
+## c). Run Python again
 Once MATLAB has finished successfully, open PowerShell in the same project root directory and run:
 ```bash
   $env:HF_HOME = Join-Path (Get-Location) “.cache\huggingface”
