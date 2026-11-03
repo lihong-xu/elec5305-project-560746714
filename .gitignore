@@ -1,27 +1,16 @@
-# Datasets — keep instructions only
-data/*
-!data/README.md
-datasets/
-
-# MATLAB backup and generated files
+.venv/
+.cache/
+__pycache__/
+*.pyc
+data/downloads/
+Toolbox/
+tests/
+validation_outputs/
+delivery/
+results/probe_archives/
+results/.probe_run_*/
+results/wavlm/*checkpoint*
+results/wavlm/archive/
+results/wavlm/pilot_*
 *.asv
-*.m~
-*.mex*
-*.slxc
-*.autosave
-slprj/
-sccprj/
-codegen/
-
-# Temporary files and model checkpoints
-checkpoints/
-temp/
-tmp/
-
-# Operating system files
 .DS_Store
-Thumbs.db
-
-# Local editor settings
-.vscode/
-.idea/

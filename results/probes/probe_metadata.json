@@ -1,0 +1,45 @@
+{
+  "Status": "COMPLETE",
+  "Classifier": "StandardScaler + SVC(kernel=linear, class_weight=balanced)",
+  "CGrid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "Seed": 5305,
+  "EmotionOuterFolds": 6,
+  "EmotionInnerFolds": 3,
+  "EmotionSelection": "Training-only actor-grouped macro-F1",
+  "SpeakerTrain": 504,
+  "SpeakerTest": 168,
+  "SpeakerInnerFolds": 3,
+  "SpeakerSelection": "Training-only stratified actor accuracy",
+  "DescriptiveBestLayer": "WavLM_L04",
+  "BestLayerCriterion": "Mean outer-fold emotion macro-F1; smaller layer wins ties",
+  "WinnerSelectionCaveat": "Winner selected using these outer results; not independent confirmation.",
+  "TrainingSelectedLayerMetrics": {
+    "MacroF1": 0.7766278697968079,
+    "Accuracy": 0.7827380952380952
+  },
+  "TrainingSelectedLayerInterpretation": "Layer and C selected inside each outer training set only.",
+  "Software": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "threadpoolctl": "3.6.0"
+  },
+  "Inputs": {
+    "results/manifest.csv": "c74b85b80db6f4d45c488469f29e050dd477116d87b00690524202a4c618115e",
+    "results/emotion_splits.csv": "2e35eb28e74c976eba24ca5642f281bdfe3ca6c60215b4bee63faae23a354b12",
+    "results/speaker_split.csv": "234af174c9c8e5f84228de681bb5fd1aa43b9e45c60cfca1aa64919c5a08eab4",
+    "results/acoustic_features.mat": "8139a2a0e17020b1260cffe6c1d40687b39ce59eb5b2f282ff0eaed731f85174",
+    "results/acoustic_features.csv": "3554a97b785f5a2cbe02ee30b2387956cb76c1ec727ebec83c151bd42750ec8a",
+    "results/wavlm/embeddings.npz": "7641f5895adfb3ccaec1f4e2c3fd104a476473e435b04c03e55e1c09f9fa91fd",
+    "results/wavlm/extraction_metadata.json": "97fb96bf93d19b641712592eae09b51eeac38be036757049e72adff4a0fdec6c"
+  },
+  "SourceSHA256": "c10a5e13ba4bd58e8d712dac2f51d8f74e1863672418785effda5365bc737196",
+  "Uncertainty": "Fold standard deviation is descriptive, not a confidence interval. Speaker accuracy is one fixed-split estimate."
+}

@@ -1,0 +1,7 @@
+RAVDESS speech audio
+Creators: Steven R. Livingstone and Frank A. Russo
+Source: https://zenodo.org/records/1188976
+Citation: Livingstone, S. R., and Russo, F. A. (2018). PLOS ONE, 13(5), e0196391. https://doi.org/10.1371/journal.pone.0196391
+License: CC BY-NC-SA 4.0 International
+Terms: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Original WAV files are unmodified; derived mono 16 kHz files are under results/prepared_audio.
